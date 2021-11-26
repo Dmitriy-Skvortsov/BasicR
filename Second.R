@@ -26,3 +26,22 @@ claritys
 barplot(claritys, col = "#ADD8E6")
 
 dev.off()
+
+plot(dnorm, -4, +4,
+     col = "#800080",
+     lwd = 5,
+     main = "Standard Normal Distribution",
+     xlab = "z-scores",
+     ylab = "Density")
+
+values <- c(2, 7, 9, 10, 11)
+
+barplot(values)
+
+height <- c(131, 148, 169, 139, 150)
+weight <- c(35, 47, 59, 72, 84)
+
+plot(height,weight)
+
+dev.off()
+
